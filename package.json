@@ -1,0 +1,42 @@
+{
+  "name": "fluix",
+  "version": "0.0.0",
+  "description": "N/A",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "dev-remote": "webpack-dev-server --mode development --host 0.0.0.0",
+    "bundle": "webpack --mode production"
+  },
+  "author": "Joshua Cole",
+  "license": "MIT",
+  "dependencies": {
+    "@joshuafcole/fluorine": "0.0.4-rc16",
+    "classcat": "^3.2.5",
+    "efreet": "^0.2.20"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "devDependencies": {
+    "@types/webpack": "^4.4.24",
+    "awesome-typescript-loader": "^5.0.0",
+    "css-loader": "^3.1.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^2.0.0",
+    "fluorine-loader": "0.0.2-rc7",
+    "imports-loader": "^0.8.0",
+    "raw-loader": "^0.5.1",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "stylus-relative-loader": "^3.4.0",
+    "typescript": "^3.4.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "capabilities": [
+    "app"
+  ]
+}

@@ -1,0 +1,17 @@
+/target/
+**/*.rs.bk
+Cargo.lock
+
+models/
+
+.DS_Store
+*#
+#*
+.#*
+*~
+*.js.map
+*.item
+node_modules/
+dist/
+
+!typings.d.ts
